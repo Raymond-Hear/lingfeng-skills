@@ -1,0 +1,12 @@
+﻿{
+  "name": "lingfeng-skills",
+  "version": "0.1.0",
+  "description": "Lingfeng's personal Agent skills collection - security check, deep research, jike client, xhs image cards",
+  "author": {
+    "name": "Raymond-Hear",
+    "url": "https://github.com/Raymond-Hear"
+  },
+  "repository": "https://github.com/Raymond-Hear/lingfeng-skills",
+  "keywords": ["skills", "security", "deep-research", "jike", "xiaohongshu"],
+  "skills": "./skills"
+}

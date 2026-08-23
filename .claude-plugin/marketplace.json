@@ -1,0 +1,13 @@
+﻿{
+  "name": "lingfeng-skills",
+  "displayName": "Lingfeng Skills Collection",
+  "description": "Personal agent skills collection: GitHub security check, deep research prompts, Jike client, XHS article-to-images",
+  "version": "0.1.0",
+  "owner": { "name": "Raymond-Hear", "url": "https://github.com/Raymond-Hear" },
+  "repository": "https://github.com/Raymond-Hear/lingfeng-skills",
+  "license": "MIT",
+  "categories": ["Productivity", "Content Creation"],
+  "plugins": [
+    { "name": "lingfeng-skills", "description": "Lingfeng's personal agent skills collection", "version": "0.1.0", "source": "./" }
+  ]
+}
