@@ -5,7 +5,7 @@
 #### 聆风Raymond 每天在用的 AI Agent Skills，都开源在这里
 
 [![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-10B981)](#-技能目录)
+[![Skills](https://img.shields.io/badge/Skills-6-10B981)](#-技能目录)
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-D97706)
 ![Codex](https://img.shields.io/badge/Codex-Skill-10B981)
@@ -26,6 +26,8 @@ Claude Code、Codex、Qoder、Kimi Code、Cursor 等 40+ 支持该标准的 Agen
 | 🔬 [**lingfeng-deep-research-prompt**](skills/lingfeng-deep-research-prompt/) | 把一句话的深度研究需求优化成结构化提示词，适配 Perplexity / OpenAI Research / 千问 | 无（纯提示词） |
 | 👋 [**lingfeng-jike**](skills/lingfeng-jike/) | 即刻客户端：扫码登录、刷动态、发帖评论搜索，token 自动刷新 | Python ≥3.10 + requests |
 | 🖼️ [**lingfeng-xhs-article-to-images**](skills/lingfeng-xhs-article-to-images/) | Markdown 长文转小红书 3:4 图片组，8 套皮肤模板 + Playwright 截图 | Node ≥18 + Playwright |
+| 📝 [**github-readme-writer**](skills/github-readme-writer/) | 用花叔式标题、徽章和导航写 GitHub README，按需添加公开作者资料 | 无（纯提示词） |
+| 🌐 [**website-page-optimization-coach**](skills/website-page-optimization-coach/) | 从访客视角优化网页结构、按钮和状态提示，改掉空泛的 AI 文案 | 无（纯提示词） |
 
 > 🌟 **独立仓库项目**（体积较大或带完整发布流程，单独维护）：
 > [howto-topic-skill](https://github.com/Raymond-Hear/howto-topic-skill) — 把你和 AI 的对话变成能发的小红书 how-to 选题，写入飞书选题库
@@ -64,7 +66,7 @@ cp -r lingfeng-skills/skills/<skill-name> ~/.agents/skills/
 
 ### 依赖说明
 
-- `lingfeng-security-check` / `lingfeng-deep-research-prompt`：装完即用；
+- `lingfeng-security-check` / `lingfeng-deep-research-prompt` / `github-readme-writer` / `website-page-optimization-coach`：装完即用；
 - `lingfeng-jike`：需 Python ≥3.10，首次使用按 SKILL.md 提示 `pip install requests qrcode[pil]`；
 - `lingfeng-xhs-article-to-images`：需 Node ≥18，进入目录后 `npm install && npx playwright install chromium`。
 
@@ -74,7 +76,8 @@ cp -r lingfeng-skills/skills/<skill-name> ~/.agents/skills/
 
 - [lingfeng-xhs-article-to-images](skills/lingfeng-xhs-article-to-images/) 基于
   [bozhouDev/xhs-article-to-images](https://github.com/bozhouDev/xhs-article-to-images)（MIT）收录整理，版权归原作者 Bozhou 所有。
-- 其余技能为本人原创，MIT 许可开源。
+- [website-page-optimization-coach](skills/website-page-optimization-coach/) 的网页文案编辑借鉴了 [Paul Bakaus 的 Impeccable](https://github.com/pbakaus/impeccable) 中的 `clarify` 和 `distill`。
+- 本仓库自有内容按 MIT 许可开源。
 
 ## License
 
