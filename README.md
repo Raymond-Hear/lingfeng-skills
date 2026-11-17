@@ -5,7 +5,7 @@
 #### 聆风Raymond 每天在用的 AI Agent Skills，都开源在这里
 
 [![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-6-10B981)](#-技能目录)
+[![Skills](https://img.shields.io/badge/Skills-7-10B981)](#-技能目录)
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-D97706)
 ![Codex](https://img.shields.io/badge/Codex-Skill-10B981)
@@ -28,6 +28,7 @@ Claude Code、Codex、Qoder、Kimi Code、Cursor 等 40+ 支持该标准的 Agen
 | 🖼️ [**lingfeng-xhs-article-to-images**](skills/lingfeng-xhs-article-to-images/) | Markdown 长文转小红书 3:4 图片组，8 套皮肤模板 + Playwright 截图 | Node ≥18 + Playwright |
 | 📝 [**github-readme-writer**](skills/github-readme-writer/) | 撰写和美化好看、专业的 GitHub 项目主页，清楚说明用途、安装与使用 | 无（纯提示词） |
 | 🌐 [**website-page-optimization-coach**](skills/website-page-optimization-coach/) | 从访客视角优化网页结构、按钮和状态提示，改掉空泛的 AI 文案 | 无（纯提示词） |
+| 🧰 [**workbuddy-skill-packager**](skills/workbuddy-skill-packager/) | 把 Agent Skill 转成 WorkBuddy 版 ZIP，可复核内容并准备 512×512 头像 | Python ≥3.9（打包） |
 
 > 🌟 **独立仓库项目**（体积较大或带完整发布流程，单独维护）：
 > [howto-topic-skill](https://github.com/Raymond-Hear/howto-topic-skill) — 把你和 AI 的对话变成能发的小红书 how-to 选题，写入飞书选题库
@@ -70,6 +71,8 @@ cp -r lingfeng-skills/skills/<skill-name> ~/.agents/skills/
 ```
 
 ### 依赖说明
+
+- `workbuddy-skill-packager`：用 Python ≥3.9 生成 ZIP，头像处理脚本可在 Windows PowerShell 中运行。
 
 - `lingfeng-security-check` / `lingfeng-deep-research-prompt` / `github-readme-writer` / `website-page-optimization-coach`：装完即用；
 - `lingfeng-jike`：需 Python ≥3.10，首次使用按 SKILL.md 提示 `pip install requests qrcode[pil]`；
