@@ -36,6 +36,11 @@ Claude Code、Codex、Qoder、Kimi Code、Cursor 等 40+ 支持该标准的 Agen
 
 ## 📦 安装方式
 
+### 直接下载 ZIP
+
+- [下载 GitHub README 写作](https://github.com/Raymond-Hear/lingfeng-skills/releases/download/skills-2026-11-17/github-readme-writer-share.zip)。解压后把整个 `github-readme-writer` 文件夹放进项目的 `.agents/skills/`，在 Codex 新聊天里调用 `$github-readme-writer`。
+- [下载网站产品页优化教练](https://github.com/Raymond-Hear/lingfeng-skills/releases/download/skills-2026-11-17/website-page-optimization-coach.zip)。解压后把整个 `website-page-optimization-coach` 文件夹放进项目的 `.agents/skills/`，在 Codex 新聊天里调用 `$website-page-optimization-coach`。
+
 ### 方式一 · 对你的 Agent 说一句话（推荐）
 
 ```
