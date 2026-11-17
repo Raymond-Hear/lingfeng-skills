@@ -26,7 +26,7 @@ Claude Code、Codex、Qoder、Kimi Code、Cursor 等 40+ 支持该标准的 Agen
 | 🔬 [**lingfeng-deep-research-prompt**](skills/lingfeng-deep-research-prompt/) | 把一句话的深度研究需求优化成结构化提示词，适配 Perplexity / OpenAI Research / 千问 | 无（纯提示词） |
 | 👋 [**lingfeng-jike**](skills/lingfeng-jike/) | 即刻客户端：扫码登录、刷动态、发帖评论搜索，token 自动刷新 | Python ≥3.10 + requests |
 | 🖼️ [**lingfeng-xhs-article-to-images**](skills/lingfeng-xhs-article-to-images/) | Markdown 长文转小红书 3:4 图片组，8 套皮肤模板 + Playwright 截图 | Node ≥18 + Playwright |
-| 📝 [**github-readme-writer**](skills/github-readme-writer/) | 用花叔式标题、徽章和导航写 GitHub README，按需添加公开作者资料 | 无（纯提示词） |
+| 📝 [**github-readme-writer**](skills/github-readme-writer/) | 撰写和美化好看、专业的 GitHub 项目主页，清楚说明用途、安装与使用 | 无（纯提示词） |
 | 🌐 [**website-page-optimization-coach**](skills/website-page-optimization-coach/) | 从访客视角优化网页结构、按钮和状态提示，改掉空泛的 AI 文案 | 无（纯提示词） |
 
 > 🌟 **独立仓库项目**（体积较大或带完整发布流程，单独维护）：

@@ -1,11 +1,11 @@
 ---
 name: github-readme-writer
-description: 为 GitHub 仓库写作、重写或检查 README。用花叔式的首屏大标题、徽章和快捷导航组织项目介绍与上手说明。可按使用者选择加入已确认公开的作者资料。
+description: 为 GitHub 项目撰写、重写或美化 README，做成好看、专业的仓库首页。用清晰的标题、徽章和快捷导航介绍项目用途、安装与使用，并按需添加公开作者资料。
 ---
 
 # GitHub README 写作
 
-把 README 写成仓库的项目首页。读者扫过首屏，就能明白这是做什么的、下一步点哪里。照 [首屏与正文模板](assets/readme-template.md) 组织，按仓库的内容调整篇幅。
+把 README 做成好看、专业的 GitHub 项目主页。读者扫过首屏，就能明白这是做什么的、下一步点哪里。照 [首屏与正文模板](assets/readme-template.md) 组织，按仓库的内容调整篇幅。
 
 ## 先确认项目实际能交付什么
 
@@ -39,5 +39,3 @@ description: 为 GitHub 仓库写作、重写或检查 README。用花叔式的�
 
 - 核对 Markdown 的标题锚点、相对路径和截图。核实徽章的文字、图片与点击目标，安装步骤能从读者能拿到的文件起步。
 - 草稿、写入本地和同步 GitHub 都按当次请求进行。获得推送授权时，沿用目标仓库和可见性，推送后回读远端 README 和提交。作者区以用户同意发布的字段为准。
-
-参考版式取自 [Huashu Design](https://github.com/alchaincyf/huashu-design/blob/master/README.md)、[女娲.skill](https://github.com/alchaincyf/nuwa-skill/blob/main/README.md) 和 [huashu-md-html](https://github.com/alchaincyf/huashu-md-html/blob/main/README.md)。借用首屏信息层级、导览和正文顺序，文案与信息全部从当前项目生成。

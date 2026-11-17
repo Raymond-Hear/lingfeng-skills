@@ -1,4 +1,4 @@
 interface:
   display_name: "GitHub README 写作"
-  short_description: "用花叔式标题、徽章和导航写 GitHub README，作者资料可按需添加"
-  default_prompt: "使用 $github-readme-writer，为当前仓库写一份好上手的 README。"
+  short_description: "撰写和美化专业的 GitHub README，清楚呈现项目用途、安装与上手步骤"
+  default_prompt: "使用 $github-readme-writer，把当前项目的 README 写成好看、专业的 GitHub 项目主页。"
